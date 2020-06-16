@@ -1,12 +1,12 @@
 
 // the import keyword is used to load in additional Java PACKAGE code for our programs
 // in this case, we are loading in the standard "util" package for the Scanner class
-import java.util.*;
+import java.util.*; // anything after the // is a comment
 
 
 // we use the class keyword to denote an OBJECT
 // an object is simply a collection of PROPERTIES (variables)
-// and METODS (functions) that relate to each other
+// and METHODS (functions) that relate to each other
 public class LiberateToAutomate {
 
   // all of our Java programs will have a "main method"
@@ -33,5 +33,6 @@ public class LiberateToAutomate {
 
     // perform String concatenation using the + operator and output the result to the console
     System.out.println("You Entered:" + something);
+    System.out.println("I hope that's what you wanted!");
   }
 }
