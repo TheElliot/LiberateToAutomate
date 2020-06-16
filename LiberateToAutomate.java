@@ -25,9 +25,13 @@ public class LiberateToAutomate {
     System.out.println("LiberateToAutomate\n\n");
 
     System.out.println("Enter Something:");
+
+    // initialize a STRING VARIABLE and call the Scanner.nextLine() of user_input
     String something = user_input.nextLine();
 
     System.out.println("\n\n\n\n");
+
+    // perform String concatenation using the + operator and output the result to the console
     System.out.println("You Entered:" + something);
   }
 }
