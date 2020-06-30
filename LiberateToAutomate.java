@@ -17,6 +17,7 @@ public class LiberateToAutomate {
   // - void: the return type of the method (in this case NOTHING)
   public static void main(String[] args) {
 
+
     // initialize a variable of type OBJECT Scanner and call its CONSTRUCTOR with the System.in parameter)
     Scanner user_input = new Scanner(System.in);
 
