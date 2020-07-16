@@ -25,15 +25,23 @@ public class LiberateToAutomate {
     // the \n denotes a "carriage return" - or blank line
     System.out.println("LiberateToAutomate\n\n");
 
-    System.out.println("Enter Something:");
+    System.out.println("Enter a number from 1-6:");
 
     // initialize a STRING VARIABLE and call the Scanner.nextLine() of user_input
-    String something = user_input.nextLine();
+    String raw_value = user_input.nextLine();
 
     System.out.println("\n\n\n\n");
 
+   
+
     // perform String concatenation using the + operator and output the result to the console
-    System.out.println("You Entered:" + something);
-    System.out.println("I hope that's what you wanted!");
+    if (raw_value.matches("^[1-6]$") ) {
+       int option = Integer.parseInt(raw_value);
+        System.out.println("You Entered: a valid option!");
+        System.out.println("That's the best!");
+    } else {
+        System.out.println("You Entered:" + raw_value);
+        System.out.println("That's very bad!!");
+    }
   }
 }
